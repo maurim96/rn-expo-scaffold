@@ -47,6 +47,12 @@ This scaffold aims to reduce the initial setup time and complexity by providing 
           GraphQL
         </a>
       </td>
+      <td align="center">
+        <a href="https://the-guild.dev/graphql/codegen">
+          <img src="https://github.com/maurim96/rn-expo-scaffold/assets/22548752/b63a0abb-b4d0-4e24-a29a-50d218d5f747" width="160" height="80" alt="GraphQL logo"><br/>
+          GraphQL CodeGen
+        </a>
+      </td>
     </tr>
   </table>
 </p>
@@ -89,6 +95,16 @@ git clone git@github.com:maurim96/rn-expo-scaffold.git
 cd rn-expo-scaffold
 npm install
 ```
+
+### Generating GraphQL Code
+
+#### Prerequisities
+- Have the API up and running in propper endpoint + port (you can refer to the [NestJs + GraphQl API Scaffold](www.google.com))
+- Run the command:
+
+  ```bash
+  npm run gen:gql
+  ```
 
 ### Running the App
 
