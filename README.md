@@ -6,6 +6,51 @@ Welcome to the official React Native (Expo) Scaffold Mobile App repository. This
 
 This scaffold aims to reduce the initial setup time and complexity by providing a ready-to-use React Native application structure. It leverages the power of Expo, GraphQL, Clerk for authentication, Sentry for monitoring, and more, enabling developers to focus on building unique features right from the start.
 
+## Powered by
+
+<p align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <a href="https://reactnative.dev/docs/getting-started">
+          <img src="https://github.com/maurim96/rn-expo-scaffold/assets/22548752/4d0785be-9a90-40af-9950-5bb4012128a4" width="100" height="80" alt="React Native logo"><br/>
+          React Native
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://docs.expo.dev/">
+          <img src="https://github.com/maurim96/rn-expo-scaffold/assets/22548752/dd94ebdc-1303-4c84-981c-beb4bd1b0f5d" width="100" height="80" alt="Expo logo"><br/>
+          Expo
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://clerk.com/docs">
+          <img src="https://github.com/maurim96/rn-expo-scaffold/assets/22548752/f2f691e0-c06f-45e8-96c8-580fa83a986e" width="160" height="80" alt="Clerk logo"><br/>
+          Clerk
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://docs.sentry.io/platforms/react-native/">
+          <img src="https://github.com/maurim96/rn-expo-scaffold/assets/22548752/a2c1a0b0-4b6d-4b0e-8051-cbd29b59a4fb" width="160" height="80" alt="Sentry logo"><br/>
+          Sentry
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://www.apollographql.com/docs/react/">
+          <img src="https://github.com/maurim96/rn-expo-scaffold/assets/22548752/87271779-89e3-4996-9e6b-020e3b42881e" width="160" height="80" alt="Apollo GraphQL logo"><br/>
+          Apollo Client
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://graphql.org/learn/">
+          <img src="https://github.com/maurim96/rn-expo-scaffold/assets/22548752/8004d1a6-22d1-4b51-bf7e-4ff6be0b84ed" width="160" height="80" alt="GraphQL logo"><br/>
+          GraphQL
+        </a>
+      </td>
+    </tr>
+  </table>
+</p>
+
 ## What's Inside
 
 - `./`: The primary React Native application directory.
@@ -93,9 +138,6 @@ Please adhere to the coding standards and commit message guidelines provided in 
 ## Troubleshooting and FAQ
 
 Encounter an issue? Check out the FAQ or troubleshooting section in our documentation for common problems and solutions. If you still need help, please file an issue on GitHub with a detailed description of the problem.
-
-## Powered by
-
 
 
 ## License
