@@ -85,7 +85,7 @@ This scaffold aims to reduce the initial setup time and complexity by providing 
 Clone the repository and install dependencies:
 
 ```bash
-git clone <repository-url>
+git clone git@github.com:maurim96/rn-expo-scaffold.git
 cd rn-expo-scaffold
 npm install
 ```
