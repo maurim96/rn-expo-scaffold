@@ -1,0 +1,86 @@
+import type { Config } from "tailwindcss";
+
+export default {
+  content: ["./**/*.{ts,tsx}"],
+  presets: [
+    {
+      content: [
+        "**/*.{js,jsx,ts,tsx}",
+      ],
+      theme: {
+        fontSize: {
+          xs: ["12px", "130%"],
+          sm: ["14px", "140%"],
+          base: ["16px", "140%"],
+          xl: ["20px", "140%"],
+          "2xl": ["25px", "140%"],
+          "3xl": ["28px", "140%"],
+          "4xl": ["32px", "140%"],
+          "5xl": ["36px", "140%"],
+          "6xl": ["40px", "140%"],
+          "7xl": ["45px", "140%"],
+          "8xl": ["51px", "140%"],
+          "9xl": ["58px", "140%"],
+        },
+        fontFamily: {
+          "esbuild-regular": ["esbuild-regular", "sans-serif"],
+          "esbuild-medium": ["esbuild-medium", "sans-serif"],
+          "esbuild-semibold": ["esbuild-semibold", "sans-serif"],
+        },
+        extend: {
+          colors: {
+            blue: {
+              50: "#F7FCFE",
+              100: "#F0F8FE",
+              200: "#E0F1FD",
+              300: "#D1EAFB",
+              400: "#C1E3FA",
+              500: "#B2DCF9",
+              600: "#90BBD9",
+              700: "#6E9AB9",
+              800: "#4B7999",
+              900: "#295879",
+            },
+            green: {
+              50: "#FAFFF7",
+              100: "#F4FEEF",
+              200: "#E9FDDE",
+              300: "#DFFCCE",
+              400: "#D4FBBD",
+              500: "#C9FAAD",
+              600: "#A8D98B",
+              700: "#87B86A",
+              800: "#659848",
+              900: "#447727",
+            },
+            warning: {
+              50: "#FFF9E9",
+              100: "#FEEBBB",
+              200: "#FDE29A",
+              300: "#FCD46C",
+              400: "#FCCC50",
+              500: "#FBBF24",
+              600: "#E4AE21",
+              700: "#B2881A",
+              800: "#8A6914",
+              900: "#69500F",
+            },
+            error: {
+              50: "#FFE6E6",
+              100: "#FFCECE",
+              200: "#FE9D9D",
+              300: "#FE6B6B",
+              400: "#FD3A3A",
+              500: "#FD0909",
+              600: "#CA0707",
+              700: "#980505",
+              800: "#650404",
+              900: "#330202",
+            },
+          },
+        },
+        plugins: [],
+      },
+    },
+  ],
+} satisfies Config;

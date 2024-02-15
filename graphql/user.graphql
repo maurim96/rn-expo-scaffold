@@ -1,0 +1,17 @@
+query CurrentUser {
+  me {
+    id
+    email
+    deviceToken
+  }
+}
+
+mutation validateUserAndUpdateDeviceToken($deviceToken: String!) {
+  validateUserAndUpdateDeviceToken(deviceToken: $deviceToken) {
+    id
+  }
+}
+
+mutation deleteUser($reason: String!) {
+  deleteUser(reason: $reason) 
+}
