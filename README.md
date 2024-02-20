@@ -99,7 +99,7 @@ npm install
 ### Generating GraphQL Code
 
 #### Prerequisities
-- Have the API up and running in propper endpoint + port (you can refer to the [NestJs + GraphQl API Scaffold](www.google.com))
+- Have the API up and running in propper endpoint + port (you can refer to the [NestJs + GraphQl API Scaffold](https://github.com/maurim96/nestjs-graphql-scaffold))
 - Run the command:
 
   ```bash
@@ -156,6 +156,6 @@ Please adhere to the coding standards and commit message guidelines provided in 
 Encounter an issue? Check out the FAQ or troubleshooting section in our documentation for common problems and solutions. If you still need help, please file an issue on GitHub with a detailed description of the problem.
 
 
-## License
+### License
 
---
+This project is [UNLICENSED](LICENSE). Feel free to use it according to the terms of the license.
