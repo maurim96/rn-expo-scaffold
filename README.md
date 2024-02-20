@@ -86,7 +86,7 @@ This scaffold aims to reduce the initial setup time and complexity by providing 
 - Volta (ideally)
 - Node.js (`18.17.0`)
 
-### Setup
+### Repository Setup
 
 Clone the repository and install dependencies:
 
