@@ -28,6 +28,10 @@ export default {
       "backgroundColor": "#ffffff"
     }
   },
+  web: {
+    favicon: "./assets/images/favicon.png",
+    bundler: "metro"
+  },
   plugins: [
     "expo-router",
     "expo-secure-store",

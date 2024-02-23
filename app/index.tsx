@@ -6,6 +6,8 @@ import { useFonts } from "expo-font";
 import * as SplashScreen from "expo-splash-screen";
 import { FontAwesome } from "@expo/vector-icons";
 
+import "../styles.css";
+
 const executionEnvironment: string =
   Constants.expoConfig?.ios?.bundleIdentifier ??
   Constants.expoConfig?.android?.package ??

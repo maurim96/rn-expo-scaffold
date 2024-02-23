@@ -120,10 +120,12 @@ const ApolloInitialization = () => {
 };
 
 export default function Layout() {
+  const platformTokenCache = Platform.OS === "web" ? undefined : tokenCache;
+
   return (
     <ClerkProvider
       publishableKey={process.env.EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY ?? ""}
-      tokenCache={tokenCache}
+      tokenCache={platformTokenCache}
     >
       <StatusBar style="dark" />
       <ApolloInitialization />
